@@ -1,0 +1,92 @@
+version: "3.5"
+services:
+  # Orion is the context broker
+  orion:
+    image: fiware/orion-ld
+    hostname: orion
+    container_name: orion
+    depends_on:
+      - mongo-db
+      - timescale
+      - mintaka
+    links:
+      - mongo-db
+    networks:
+      - default
+    ports:
+      - "1026:1026"
+    command: -logLevel DEBUG -troe -troeHost timescale -troePort 5432 -troeUser orion -troePwd orion -dbhost mongo-db
+    restart: always  # Add this line to specify the restart policy
+
+    healthcheck:
+            test: ["CMD", "curl", "--fail", "-s", "http://timescale:5432"]  # Check if Timescale is reachable
+            interval: 5s
+            retries: 60  # Adjust the number of retries as needed
+
+#  # Databases
+  mongo-db:
+    image: mongo:4.4
+    hostname: mongo-db
+    container_name: mongo-db
+    expose:
+      - "27017"
+    ports:
+      - "27017:27017"
+    networks:
+      - default
+    restart: always  # Add this line to specify the restart policy
+    healthcheck:
+      test: |
+        host=`hostname --ip-address || echo 'mongo-db'`;
+        mongo --quiet $host/test --eval 'quit(db.runCommand({ ping: 1 }).ok ? 0 : 2)' && echo 0 || echo 1
+      interval: 5s
+
+  timescale:
+    image: timescale/timescaledb-postgis:latest-pg12
+    hostname: timescale
+    container_name: timescale
+    restart: always  # Add this line to specify the restart policy
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U orion" ]
+      interval: 15s
+      timeout: 15s
+      retries: 5
+      start_period: 60s
+    environment:
+      - POSTGRES_USER=orion
+      - POSTGRES_PASSWORD=orion
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    expose:
+      - "5431"
+    ports:
+      - "5431:5431"
+    networks:
+      - default
+
+  mintaka:
+    image: fiware/mintaka:latest
+    hostname: mintaka
+    container_name: mintaka
+    environment:
+      - DATASOURCES_DEFAULT_HOST=timescale
+      - DATASOURCES_DEFAULT_PORT=5432
+      - DATASOURCES_DEFAULT_USERNAME=orion
+      - DATASOURCES_DEFAULT_PASSWORD=orion
+      - DATASOURCES_DEFAULT_DATABASE=orion
+    depends_on:
+      - timescale
+    expose:
+      - "8181"
+    ports:
+      - "8181:8080"
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://timescale:5432"]
+        interval: 30s
+        timeout: 10s
+        retries: 5
+    restart: always  # Add this line to specify the restart policy
+    networks:
+      - default
+
+volumes:
+  mongo-db: ~

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "isomorphic-ws": "^5.0.0",
+    "nats": "^2.13.1",
+    "nats.ws": "^1.14.0"
+  }
+}

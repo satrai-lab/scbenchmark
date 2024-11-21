@@ -1,0 +1,482 @@
+[
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Occupancy_S16_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 16"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 1,
+				"measurementUnit": "boolean"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Occupancy_S17_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 17"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 1,
+				"measurementUnit": "boolean"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Occupancy_S18_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 18"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 1,
+				"measurementUnit": "boolean"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Occupancy_S19_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 19"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 1,
+				"measurementUnit": "boolean"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Occupancy_S20_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 20"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 1,
+				"measurementUnit": "boolean"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Occupancy_S21_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 21"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 1,
+				"measurementUnit": "boolean"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Occupancy_S22_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 22"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 1,
+				"measurementUnit": "boolean"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Occupancy_S23_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Observation Seat 24"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 1,
+				"measurementUnit": "boolean"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Humidity_S1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Humidity Sensor"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 40,
+				"measurementUnit": "%"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_AirPolution_S1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Air Polution Sensor"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 10,
+				"measurementUnit": "%"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Temperature_S1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Temperature Sensor"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 23,
+				"measurementUnit": "Celcius"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_FuelConsumption_S1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Fuel Consumption"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 6.8,
+				"measurementUnit": "Liters/100 km"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_EngineVibration_S1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Engine Vibration Sensor"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 0.5,
+				"measurementUnit": "g"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Voltage_S1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Voltage Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 12.3,
+				"measurementUnit": "V"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_Amperage_S1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Amperage Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 5.7,
+				"measurementUnit": "A"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_TirePressure_S1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Tire Pressure Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 32.0,
+				"measurementUnit": "psi"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_TirePressure_S2_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Tire Pressure Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 32.0,
+				"measurementUnit": "psi"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_TirePressure_S3_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Tire Pressure Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 32.0,
+				"measurementUnit": "psi"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_TirePressure_S4_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Tire Pressure Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 32.0,
+				"measurementUnit": "psi"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_TirePressure_S5_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Tire Pressure Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 32.0,
+				"measurementUnit": "psi"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_TirePressure_S6_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Tire Pressure Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 32.0,
+				"measurementUnit": "psi"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_ToF_1_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Time Of Flight Occupancy Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 10.0,
+				"measurementUnit": "people"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_ToF_2_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Time Of Flight Occupancy Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 10.0,
+				"measurementUnit": "people"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Heraklion:Observation_ToF_3_$1",
+		"type": "Observation",
+		"name": {
+			"type": "Property",
+			"value": "Time Of Flight Occupancy Observation"
+		},
+		"dateModified": {
+			"type": "Property",
+			"value": "Thu, 12 Mar 2023 13:15:24 GMT"
+		},
+		"measurement": {
+			"type": "Property",
+			"value": {
+				"value": 10.0,
+				"measurementUnit": "people"
+			},
+			"observedAt": "2021-09-16T10:26:41Z"
+		}
+	}
+]

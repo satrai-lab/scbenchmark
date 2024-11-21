@@ -1,0 +1,169 @@
+[
+    {
+        "id": "urn:ngsi-ld:Bus:Heraklion:SmartCitiesDomain:SmartCityBus:$1",
+        "type": "Bus",
+        "dateFirstUsed": {
+            "type": "Property",
+            "value": "08/02/2023"
+        },
+        "purchaseDate": {
+            "type": "Property",
+            "value": "21/01/2023"
+        },
+        "feature": {
+            "type": "Property",
+            "value": [
+                "abs",
+                "airbag",
+                "disabledRamp",
+                "gps",
+                "internetConnection",
+                "wifi"
+            ]
+        },
+        "serviceStatus": {
+            "type": "Property",
+            "value": "parked"
+        },
+        "vehicleStatus": {
+            "type": "Property",
+            "value": " stopped"
+        },
+        "deviceSimNumber": {
+            "type": "Property",
+            "value": "00306900000000"
+        },
+        "busExtend": {
+            "type": "Property",
+            "value": {
+                "type": {
+                    "type": "Property",
+                    "value": "Polygon"
+                },
+                "measurementUnit": {
+                    "type": "Property",
+                    "value": "m"
+                },
+                "dimensions": {
+                    "type": "Property",
+                    "value": "2D"
+                },
+                "coordinates": {
+                    "type": "Property",
+                    "value": [
+                        [
+                            [
+                                0,
+                                0
+                            ],
+                            [
+                                18.125,
+                                0
+                            ],
+                            [
+                                18.125,
+                                2.55
+                            ],
+                            [
+                                0,
+                                2.55
+                            ],
+                            [
+                                0,
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                "hasAvailableAreas": {
+                    "type": "Relationship",
+                    "value": [
+                        "urn:ngsi-ld:Heraklion:BusArea:DriverArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:EngineArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:BackSeatArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:SpecialArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:EmptyArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:FrontSeatArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:BackdoorArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:MiddledoorArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:FrontdoorArea_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:Tire1Area_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:Tire2Area_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:Tire3Area_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:Tire4Area_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:Tire5Area_$1",
+                        "urn:ngsi-ld:Heraklion:BusArea:Tire6Area_$1"
+                    ]
+                },
+                "RefBusVehicle_Model": {
+                    "type": "Relationship",
+                    "value": [
+                        "urn:ngsi-ld:Heraklion:BusVehicleModel:YZX02"
+                    ]
+                },
+                "Devices": {
+                    "type": "Relationship",
+                    "value": [
+                        "urn:ngsi-ld:Heraklion:Device:OccupancySeatSensor_16_$1",
+                        "urn:ngsi-ld:Heraklion:Device:OccupancySeatSensor_17_$1",
+                        "urn:ngsi-ld:Heraklion:Device:OccupancySeatSensor_18_$1",
+                        "urn:ngsi-ld:Heraklion:Device:OccupancySeatSensor_19_$1",
+                        "urn:ngsi-ld:Heraklion:Device:OccupancySeatSensor_20_$1",
+                        "urn:ngsi-ld:Heraklion:Device:OccupancySeatSensor_21_$1",
+                        "urn:ngsi-ld:Heraklion:Device:OccupancySeatSensor_22_$1",
+                        "urn:ngsi-ld:Heraklion:Device:OccupancySeatSensor_23_$1",
+                        "urn:ngsi-ld:Heraklion:Device:HumiditySensor_01_$1",
+                        "urn:ngsi-ld:Heraklion:Device:AirPolutionSensor_01_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TemperatureSensor_01_$1",
+                        "urn:ngsi-ld:Heraklion:Device:FuelConsumptionSensor_01_$1",
+                        "urn:ngsi-ld:Heraklion:Device:VibrationSensor_01_$1",
+                        "urn:ngsi-ld:Heraklion:Device:VoltageSensor_01_$1",
+                        "urn:ngsi-ld:Heraklion:Device:AmperageSensor_01_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TireSensor_01_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TireSensor_02_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TireSensor_03_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TireSensor_04_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TireSensor_05_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TireSensor_06_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TOF_Sensor_1_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TOF_Sensor_2_$1",
+                        "urn:ngsi-ld:Heraklion:Device:TOF_Sensor_3_$1"
+                    ]
+                },
+                "capacity": {
+                    "type": "Property",
+                    "value": "117"
+                },
+                "Observations": {
+                    "type": "Relationship",
+                    "object": [
+                        "urn:ngsi-ld:Heraklion:Observation_Occupancy_S16_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Occupancy_S17_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Occupancy_S18_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Occupancy_S19_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Occupancy_S20_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Occupancy_S21_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Occupancy_S22_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Occupancy_S23_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Humidity_S1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_AirPolution_S1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Temperature_S1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_FuelConsumption_S1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_EngineVibration_S1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Voltage_S1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_Amperage_S1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_TirePressure_S1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_TirePressure_S2_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_TirePressure_S3_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_TirePressure_S4_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_TirePressure_S5_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_TirePressure_S6_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_ToF_1_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_ToF_2_$1",
+                        "urn:ngsi-ld:Heraklion:Observation_ToF_3_$1"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,840 @@
+[
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:DriverArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "DriverArea"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Polygon"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								15.79,
+								1.2
+							],
+							[
+								18.1,
+								1.2
+							],
+							[
+								18.1,
+								2.55
+							],
+							[
+								15.79,
+								2.55
+							],
+							[
+								15.79,
+								1.2
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation_Temperature_S1_$1",
+				"urn:ngsi-ld:Kerkira:Observation_Humidity_S1_$1",
+				"urn:ngsi-ld:Kerkira:AirPolution_S1_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:EngineArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Engine Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Polygon"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								0,
+								1.6
+							],
+							[
+								2.31,
+								1.6
+							],
+							[
+								2.31,
+								2.55
+							],
+							[
+								0,
+								2.55
+							],
+							[
+								0,
+								1.6
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation_Temperature_S1_$1",
+				"urn:ngsi-ld:Kerkira:Observation_Humidity_S1_$1",
+				"urn:ngsi-ld:Kerkira:AirPolution_S1_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:BackSeatArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Back Seat Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Polygon"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								0,
+								0
+							],
+							[
+								3.6,
+								0
+							],
+							[
+								3.6,
+								2.55
+							],
+							[
+								0,
+								2.55
+							],
+							[
+								0,
+								0
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": []
+		},
+		"HasObject": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:BusSeat:1_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:2_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:3_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:4_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:5_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:6_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:7_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:8_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:9_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:10_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:11_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:12_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:13_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:14_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:15_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:SpecialArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Special Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Polygon"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								3.6,
+								1.2
+							],
+							[
+								6.16,
+								1.2
+							],
+							[
+								6.16,
+								2.55
+							],
+							[
+								3.6,
+								2.55
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation:OS16_$1",
+				"urn:ngsi-ld:Kerkira:Observation:OS17_$1",
+				"urn:ngsi-ld:Kerkira:Observation:OS18_$1",
+				"urn:ngsi-ld:Kerkira:Observation:OS19_$1",
+				"urn:ngsi-ld:Kerkira:Observation:OS20_$1",
+				"urn:ngsi-ld:Kerkira:Observation:OS21_$1",
+				"urn:ngsi-ld:Kerkira:Observation:OS22_$1",
+				"urn:ngsi-ld:Kerkira:Observation:OS23_$1"
+			]
+		},
+		"HasObject": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:BusSeat:16_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:17_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:18_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:19_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:20_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:21_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:22_$1",
+				"urn:ngsi-ld:Kerkira:BusSeat:23_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:EmptyArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Empty Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Polygon"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								6.16,
+								0
+							],
+							[
+								9.1,
+								0
+							],
+							[
+								9.1,
+								2.55
+							],
+							[
+								6.16,
+								2.55
+							],
+							[
+								6.16,
+								0
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": []
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:FrontSeatArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Front Seat Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Polygon"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								13.1,
+								0
+							],
+							[
+								15.79,
+								0
+							],
+							[
+								15.79,
+								2.55
+							],
+							[
+								13.1,
+								2.55
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": []
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:FrontSeat_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Front Seat Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Polygon"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								13.1,
+								0
+							],
+							[
+								15.79,
+								0
+							],
+							[
+								15.79,
+								2.55
+							],
+							[
+								13.1,
+								2.55
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": []
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:BackdoorArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Backdoor Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								3.9,
+								0
+							],
+							[
+								5.4,
+								0
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": []
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:MiddledoorArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Middledoor Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								10.9,
+								0
+							],
+							[
+								12.4,
+								0
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": []
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:FrontdoorArea_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Frontdoor Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								16.4,
+								0
+							],
+							[
+								17.9,
+								0
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": []
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:Tire1Area_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Tire 1 Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								2.0,
+								2.55
+							],
+							[
+								2.5,
+								2.55
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation_TirePressure_S1_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:Tire2Area_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Tire 2 Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								2.0,
+								0
+							],
+							[
+								2.5,
+								0
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation_TirePressure_S2_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:Tire3Area_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Tire 3 Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								15.0,
+								0
+							],
+							[
+								15.55,
+								0
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation_TirePressure_S3_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:Tire4Area_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Tire 4 Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								15.0,
+								2.55
+							],
+							[
+								15.55,
+								2.55
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation_TirePressure_S4_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:Tire5Area_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Tire 5 Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								9.0,
+								2.55
+							],
+							[
+								9.5,
+								2.55
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation_TirePressure_S5_$1"
+			]
+		}
+	},
+	{
+		"id": "urn:ngsi-ld:Kerkira:BusArea:Tire6Area_$1",
+		"type": "BusArea",
+		"name": {
+			"type": "Property",
+			"value": "Tire 6 Area"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Line"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[
+								9.0,
+								0
+							],
+							[
+								9.5,
+								0
+							]
+						]
+					}
+				}
+			}
+		},
+		"Observations": {
+			"type": "Relationship",
+			"object": [
+				"urn:ngsi-ld:Kerkira:Observation_TirePressure_S6_$1"
+			]
+		}
+	}
+]

@@ -1,0 +1,169 @@
+[
+    {
+        "id": "urn:ngsi-ld:Bus:Ioannina:SmartCitiesDomain:SmartCityBus:$1",
+        "type": "Bus",
+        "dateFirstUsed": {
+            "type": "Property",
+            "value": "08/02/2023"
+        },
+        "purchaseDate": {
+            "type": "Property",
+            "value": "21/01/2023"
+        },
+        "feature": {
+            "type": "Property",
+            "value": [
+                "abs",
+                "airbag",
+                "disabledRamp",
+                "gps",
+                "internetConnection",
+                "wifi"
+            ]
+        },
+        "serviceStatus": {
+            "type": "Property",
+            "value": "parked"
+        },
+        "vehicleStatus": {
+            "type": "Property",
+            "value": " stopped"
+        },
+        "deviceSimNumber": {
+            "type": "Property",
+            "value": "00306900000000"
+        },
+        "busExtend": {
+            "type": "Property",
+            "value": {
+                "type": {
+                    "type": "Property",
+                    "value": "Polygon"
+                },
+                "measurementUnit": {
+                    "type": "Property",
+                    "value": "m"
+                },
+                "dimensions": {
+                    "type": "Property",
+                    "value": "2D"
+                },
+                "coordinates": {
+                    "type": "Property",
+                    "value": [
+                        [
+                            [
+                                0,
+                                0
+                            ],
+                            [
+                                18.125,
+                                0
+                            ],
+                            [
+                                18.125,
+                                2.55
+                            ],
+                            [
+                                0,
+                                2.55
+                            ],
+                            [
+                                0,
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                "hasAvailableAreas": {
+                    "type": "Relationship",
+                    "value": [
+                        "urn:ngsi-ld:Ioannina:BusArea:DriverArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:EngineArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:BackSeatArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:SpecialArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:EmptyArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:FrontSeatArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:BackdoorArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:MiddledoorArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:FrontdoorArea_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:Tire1Area_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:Tire2Area_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:Tire3Area_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:Tire4Area_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:Tire5Area_$1",
+                        "urn:ngsi-ld:Ioannina:BusArea:Tire6Area_$1"
+                    ]
+                },
+                "RefBusVehicle_Model": {
+                    "type": "Relationship",
+                    "value": [
+                        "urn:ngsi-ld:Ioannina:BusVehicleModel:YZX02"
+                    ]
+                },
+                "Devices": {
+                    "type": "Relationship",
+                    "value": [
+                        "urn:ngsi-ld:Ioannina:Device:OccupancySeatSensor_16_$1",
+                        "urn:ngsi-ld:Ioannina:Device:OccupancySeatSensor_17_$1",
+                        "urn:ngsi-ld:Ioannina:Device:OccupancySeatSensor_18_$1",
+                        "urn:ngsi-ld:Ioannina:Device:OccupancySeatSensor_19_$1",
+                        "urn:ngsi-ld:Ioannina:Device:OccupancySeatSensor_20_$1",
+                        "urn:ngsi-ld:Ioannina:Device:OccupancySeatSensor_21_$1",
+                        "urn:ngsi-ld:Ioannina:Device:OccupancySeatSensor_22_$1",
+                        "urn:ngsi-ld:Ioannina:Device:OccupancySeatSensor_23_$1",
+                        "urn:ngsi-ld:Ioannina:Device:HumiditySensor_01_$1",
+                        "urn:ngsi-ld:Ioannina:Device:AirPolutionSensor_01_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TemperatureSensor_01_$1",
+                        "urn:ngsi-ld:Ioannina:Device:FuelConsumptionSensor_01_$1",
+                        "urn:ngsi-ld:Ioannina:Device:VibrationSensor_01_$1",
+                        "urn:ngsi-ld:Ioannina:Device:VoltageSensor_01_$1",
+                        "urn:ngsi-ld:Ioannina:Device:AmperageSensor_01_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TireSensor_01_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TireSensor_02_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TireSensor_03_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TireSensor_04_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TireSensor_05_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TireSensor_06_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TOF_Sensor_1_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TOF_Sensor_2_$1",
+                        "urn:ngsi-ld:Ioannina:Device:TOF_Sensor_3_$1"
+                    ]
+                },
+                "capacity": {
+                    "type": "Property",
+                    "value": "117"
+                },
+                "Observations": {
+                    "type": "Relationship",
+                    "object": [
+                        "urn:ngsi-ld:Ioannina:Observation_Occupancy_S16_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Occupancy_S17_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Occupancy_S18_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Occupancy_S19_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Occupancy_S20_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Occupancy_S21_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Occupancy_S22_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Occupancy_S23_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Humidity_S1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_AirPolution_S1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Temperature_S1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_FuelConsumption_S1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_EngineVibration_S1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Voltage_S1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_Amperage_S1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_TirePressure_S1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_TirePressure_S2_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_TirePressure_S3_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_TirePressure_S4_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_TirePressure_S5_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_TirePressure_S6_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_ToF_1_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_ToF_2_$1",
+                        "urn:ngsi-ld:Ioannina:Observation_ToF_3_$1"
+                    ]
+                }
+            }
+        }
+    }
+]

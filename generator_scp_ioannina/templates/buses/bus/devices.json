@@ -1,0 +1,1113 @@
+[{
+		"id": "urn:ngsild:Device:OccupancySeatSensor_16_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Occupancy_S16_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[4.03, 2.21]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:OccupancySeatSensor_17_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 17"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Occupancy_S17_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[4.03, 1.92]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:OccupancySeatSensor_18_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 18"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Occupancy_S18_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[4.58, 2.21]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:OccupancySeatSensor_19_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 19"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Occupancy_S19_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[4.58, 1.92]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:OccupancySeatSensor_20_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 20"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Occupancy_S20_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[5.36, 2.21]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:OccupancySeatSensor_21_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 21"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Occupancy_S21_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[5.36, 1.92]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:OccupancySeatSensor_22_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 22"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Occupancy_S22_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[5.76, 1.92]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:OccupancySeatSensor_23_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Occupancy Seat Sensor 23"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Occupancy_S23_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[5.76, 2.21]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:HumiditySensor_01_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Humidity Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["humidity"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Humidity_S1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[17.9, 2.3]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:AirPolutionSensor_01_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Air Polution Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["humidity"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_AirPolution_S1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[17.1, 2.3]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:TemperatureSensor_01_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Temperature Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["temperature"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Temperature_S1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[17.9, 2.1]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:FuelConsumptionSensor_01_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Fuel Consumption Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["gasConsumption"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_FuelConsumption_S1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[0.5, 2.0]
+						]
+					}
+				}
+			}
+		}
+	},
+
+
+	{
+		"id": "urn:ngsild:Device:VibrationSensor_01_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Vibration Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["pressure"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_EngineVibration_S1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[1.0, 2.0]
+						]
+					}
+				}
+			}
+		}
+	},
+
+
+	{
+		"id": "urn:ngsild:Device:VoltageSensor_01_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Voltage Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["batterySupply"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Voltage_S1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[2.0, 2.0]
+						]
+					}
+				}
+			}
+		}
+	},
+
+
+	{
+		"id": "urn:ngsild:Device:AmperageSensor_01_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Amperage Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["electicityConsumption"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_Amperage_S1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[2.0, 2.3]
+						]
+					}
+				}
+			}
+		}
+	},
+
+
+	{
+		"id": "urn:ngsild:Device:TireSensor_01_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Tire Sensor 1"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["atmosphericPressure"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_TirePressure_S1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[2.2, 2.55]
+						]
+					}
+				}
+			}
+		}
+	},	
+
+
+
+	{
+		"id": "urn:ngsild:Device:TireSensor_02_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Tire Sensor 2"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["atmosphericPressure"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_TirePressure_S2_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[2.2, 0]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:TireSensor_03_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Tire Sensor 3"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["atmosphericPressure"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_TirePressure_S3_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[15.2, 0]
+						]
+					}
+				}
+			}
+		}
+	},
+
+
+	{
+		"id": "urn:ngsild:Device:TireSensor_04_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Tire Sensor 4"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["atmosphericPressure"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_TirePressure_S4_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[15.2, 2.55]
+						]
+					}
+				}
+			}
+		}
+	},
+
+
+	{
+		"id": "urn:ngsild:Device:TireSensor_05_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Tire Sensor 5"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["atmosphericPressure"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_TirePressure_S5_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[9.1, 2.55]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:TireSensor_06_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Tire Sensor 6"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["atmosphericPressure"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_TirePressure_S6_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[9.1, 0]
+						]
+					}
+				}
+			}
+		}
+	},
+
+
+	{
+		"id": "urn:ngsild:Device:TOF_Sensor_1_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Time Of Flight Occupancy Sensor"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_ToF_1_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[17.1, 0]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:TOF_Sensor_2_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Time Of Flight Occupancy Sensor 2"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_ToF_2_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[11.65, 0]
+						]
+					}
+				}
+			}
+		}
+	},
+
+	{
+		"id": "urn:ngsild:Device:TOF_Sensor_3_$1",
+		"type": "Device",
+		"name": {
+			"type": "Property",
+			"value": "Time Of Flight Occupancy Sensor 3"
+		},
+		"controlledObservation": {
+			"type": "Property",
+			"value": ["occupancy"]
+		},
+		"observations": {
+			"type": "Relationship",
+			"object": ["urn:ngsild:Observation_ToF_3_$1"]
+		},
+		"deviceState": {
+			"type": "Property",
+			"value": "ok"
+		},
+		"relativePosition": {
+			"type": "Property",
+			"value": {
+				"type": {
+					"type": "Property",
+					"value": "Point"
+				},
+				"measurementUnit": {
+					"type": {
+						"type": "Property",
+						"value": "m"
+					},
+					"Dimensions": {
+						"type": "Property",
+						"value": "2D"
+					},
+					"coordinates": {
+						"type": "Property",
+						"value": [
+							[4.6, 0]
+						]
+					}
+				}
+			}
+		}
+	}
+]
